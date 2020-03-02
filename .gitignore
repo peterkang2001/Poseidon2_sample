@@ -5,3 +5,6 @@
 **/.pytest_cache/
 **/__pycache__/
 demo.egg-info/
+hello
+hello2
+hello3
