@@ -208,9 +208,9 @@ def hello():
 #     print("开始  pytest_warning_captured")
 
 # # 6_Debugging/Interaction hooks
-# def pytest_internalerror(excrepr, excinfo):
-#     ...
-#
+def pytest_internalerror(excrepr, excinfo):
+    ...
+
 # def pytest_keyboard_interrupt(excinfo):
 #     ...
 #
