@@ -20,7 +20,6 @@ class Test2:
         self.logger.warning("This is 2_1 waning_2")
 
         print("This is test2_1")
-
     def test2_2(self):
         assert 0
         print("This is test2_2")
@@ -50,3 +49,6 @@ class Test3:
             print("This is test3_1")
     def test3_2(self):
         print("This is test3_1")
+
+    def test3_3(self):
+        assert 10>5
