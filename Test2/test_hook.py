@@ -13,7 +13,7 @@ class Foo:
 
 class Test2:
     import logging
-    logger = logging.getLogger("peter")
+    logger = logging.getLogger()
     def test2_1(self):
         self.logger.warning("This is 2_1 waning_1")
         self.logger.error("This is 2_1 error_1")
@@ -21,7 +21,7 @@ class Test2:
 
         print("This is test2_1")
     def test2_2(self):
-        assert 0
+        # assert 0
         print("This is test2_2")
         self.logger.warning("This is 2_2 waning_1")
         self.logger.error("This is 2_2 error_1")
